@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="images/vorn_logo.jpg" type="vorn_logo" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vorn Portfolio | Video Editor</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" />
+    <script src="https://kit.fontawesome.com/0f137bcacd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="dust-container" class="dust-container"></div>
+    <div class="container">
+      <aside class="sidebar">
+        <div class="sidebar-content">
+          <div class="logo-container">
+            <img src="images/vorn_logo.jpg" alt="Vorn Logo" class="logo" />
+          </div>
+          <h1>Vorn Productions</h1>
+          <h2>Video Editor</h2>
+          <div class="divider"></div>
+          <p class="bio">Crafting compelling visual narratives with expertise in cutting-edge editing techniques.</p>
+          <div class="divider"></div>
+          <div class="skills">
+            <h3>Core Competencies</h3>
+            <ul>
+              <div class="sidebar-skills">
+                <div class="skill-item">
+                  <img src="images/skills/premiere.png" alt="Adobe Premiere Pro" />
+                </div>
+                <div class="skill-item">
+                  <img src="images/skills/aftereffects.png" alt="After Effects" />
+                </div>
+                <div class="skill-item">
+                  <img src="images/skills/videography.png" alt="Videography" />
+                </div>
+                <div class="skill-item">
+                  <img src="images/skills/cinematography.jpg" alt="Cinematography" />
+                </div>
+              </div>
+            </ul>
+          </div>
+          <div class="divider"></div>
+          <div class="contact-info">
+            <p><strong>Email:</strong> fritzsymon23@gmail.com</p>
+            <p><strong>Phone:</strong> +639943462821</p>
+          </div>
+        </div>
+      </aside>
+      <main class="main-content">
+        <div class="header-container">
+          <button id="menu-toggle" class="menu-toggle">☰</button>
+        </div>
+        <div class="card">
+          <div class="header-card">
+            <header>
+              <nav>
+                <button class="header-btn active" data-content="projects">Projects</button>
+                <button class="header-btn" data-content="about">About</button>
+                <button class="header-btn" data-content="contacts">Contacts</button>
+              </nav>
+            </header>
+          </div>
+
+          <!-- Filter button  -->
+          <div class="filter-container">
+            <button id="filter-toggle" class="filter-toggle">Filter</button>
+            <div id="filter-options" class="filter-options">
+              <button class="filter-btn active" data-filter="all">All</button>
+              <button class="filter-btn" data-filter="school">School</button>
+              <button class="filter-btn" data-filter="business">Business</button>
+              <button class="filter-btn" data-filter="personal">Personal</button>
+            </div>
+          </div>
+
+          <!-- Dark mode toggle -->
+          <button id="dark-mode-toggle" class="dark-mode-toggle">🌙</button>
+
+          <div id="projects" class="content-section active">
+            <div class="video-container" id="videoContainer">
+              <!-- Videos -->
+            </div>
+          </div>
+
+          <!-- Replace the existing About section in your index.html file with this: -->
+          <!-- Update the About section in your index.html -->
+          <div id="about" class="content-section">
+            <div class="about-container">
+              <div class="hero-section">
+                <div class="hero-content">
+                  <h1>I'm <span class="highlight">Fritz Symon Blancaflor</span></h1>
+                  <p class="role">Computer Engineering Student & Video Editor</p>
+                  <button class="contact-btn">Contact Me</button>
+                </div>
+                <div class="hero-image">
+                  <img src="images/profile.png" alt="Profile 1" />
+                  <img src="images/profile2.png" alt="Profile 2" />
+                </div>
+              </div>
+
+              <div class="about-section">
+                <h2>About</h2>
+                <p>
+                  As a 4th-year Computer Engineering student, I've developed a unique blend of technical and creative skills. My passion for video
+                  editing complements my engineering background, allowing me to approach projects with both analytical precision and artistic vision.
+                  I specialize in creating compelling visual narratives while maintaining a deep understanding of the technical aspects of both
+                  software development and video production.
+                </p>
+              </div>
+
+              <div class="skills-section">
+                <h2>My Skills</h2>
+                <div class="skills-grid">
+                  <div class="skill-card">
+                    <img src="images/skills/premiere.png" alt="Premiere Pro" />
+                    <span>Premiere Pro</span>
+                  </div>
+                  <div class="skill-card">
+                    <img src="images/skills/aftereffects.png" alt="After Effects" />
+                    <span>After Effects</span>
+                  </div>
+                  <div class="skill-card">
+                    <img src="images/skills/HTML.png" alt="HTML & CSS" />
+                    <span>HTML</span>
+                  </div>
+                  <div class="skill-card">
+                    <img src="images/skills/css-logo.png" alt="JavaScript" />
+                    <span>CSS </span>
+                  </div>
+                  <div class="skill-card">
+                    <img src="images/skills/javascript-logo.png" alt="Python" />
+                    <span>JavaScript </span>
+                  </div>
+                  <div class="skill-card">
+                    <img src="images/skills/cinematography.jpg" alt="Videography" />
+                    <span>Cinematography </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="about-card">
+              <div class="social-sidebar">
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contacts Section -->
+          <div id="contacts" class="content-section">
+            <h2>Contact Information</h2>
+            <div class="contact-container">
+              <div class="contact-info">
+                <p>Email: fritzsymon23@gmail.com`</p>
+                <p>Phone: +639943462821</p>
+                <div class="social-icons">
+                  <a href="https://www.facebook.com/Vorn.Prod/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                    <i class="fab fa-facebook"></i>
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/fritz-symon-blancaflor-8a8849323/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="LinkedIn"
+                  >
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                  <a href="https://x.com/fSymonb" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="https://www.instagram.com/blancaflor.fs/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </div>
+              </div>
+              <form id="contact-form" class="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required />
+                <input type="email" name="email" placeholder="Your Email" required />
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+              </form>
+            </div>
+          </div>
+          <!-- Contacts Section End -->
+        </div>
+      </main>
+    </div>
+    <script src="script.js"></script>
+    <script src="send-email.js"></script>
+  </body>
+</html>
